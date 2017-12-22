@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FBF8F1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/app_name"
+                android:textSize="40sp"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:textColor="#736F6C"
+                />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            android:baselineAligned="false"
+            tools:ignore="UselessParent"
+            android:id="@+id/header1"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:background="@drawable/background_color"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/score"
+                    android:textSize="15sp"
+                    android:textColor="#ffff"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/newgame"
+                    android:textColor="#ffff"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:id="@+id/Score"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:background="@drawable/background_color"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/Hscore"
+                    android:textSize="15sp"
+                    android:textColor="#ffff"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+
+                    android:textColor="#ffff"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:id="@+id/HS"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/header1"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/title"
+                android:padding="15dp"
+                android:textSize="15sp"
+                />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="15dp"
+        >
+
+        <GridView
+            android:id="@+id/GVplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:padding="5dp"
+            android:numColumns="4"
+            android:background="#BBADA0"
+            android:gravity="center"
+
+            >
+
+
+        </GridView>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <array name="colorSquare">
+        <item>#EEE4DA</item> //2
+        <item>#EDE0C8</item>    //4
+        <item>#F2B179</item>    //8
+        <item>#F59563</item>    //16
+        <item>#F67C5F</item>    //32
+        <item>#F65E3B</item>    //64
+        <item>#EDCF72</item>
+        <item>#EDCC61</item>
+        <item>#EDC850</item>
+        <item>#E2BA13</item>
+        <item>#E2BA13</item>
+    </array>
+
+</resources>
